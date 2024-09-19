@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Страница — 1" id="X5zfh4CaaJWVjGtRF56d">
-    <mxGraphModel dx="1693" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,8 +324,40 @@
         <mxCell id="PVIwpKOzmNWKB1qRG-OH-121" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2565" y="610" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DRKDcCcUPv160Awe8upS-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rotation=47;" vertex="1" parent="1">
+        <mxCell id="DRKDcCcUPv160Awe8upS-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rotation=47;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1640" width="820.22" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="920" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-2" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;2.1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ATr1F9JLEvc2emBKj1S-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-3" value="ввод цифры" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ATr1F9JLEvc2emBKj1S-1" target="9ATr1F9JLEvc2emBKj1S-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="930" as="sourcePoint" />
+            <mxPoint x="580" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ATr1F9JLEvc2emBKj1S-7" target="9ATr1F9JLEvc2emBKj1S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-7" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;let&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;lastDigit&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;number&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;/&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1110" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-8" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ATr1F9JLEvc2emBKj1S-10" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;2.2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
